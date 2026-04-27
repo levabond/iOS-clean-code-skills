@@ -1,6 +1,6 @@
 # swift-clean-code
 
-Clean Code skills for Swift / iOS projects based on Robert Martin's *Clean Code*.
+Clean Code skills for Swift / iOS projects based on Robert Martin's *Clean Code* and G. Ann Campbell's *Cognitive Complexity*.
 
 ## Skills
 
@@ -14,6 +14,7 @@ Clean Code skills for Swift / iOS projects based on Robert Martin's *Clean Code*
 | `/swift-clean-errors` | Audit `throws`, optionals, `Result`, custom `Error` types |
 | `/swift-clean-tests` | Check FIRST principles, AAA pattern, test naming, mocking |
 | `/swift-clean-review` | Full Clean Code audit of a file or directory |
+| `/swift-cognitive-complexity` | Score and reduce Cognitive Complexity: nesting, closures, control flow |
 
 ### Automatic (model-invoked)
 
@@ -43,6 +44,9 @@ Then open Claude Code in that project — skills are available immediately.
 
 # Review test quality
 /swift-clean-tests Tests/UserServiceTests.swift
+
+# Score and reduce cognitive complexity
+/swift-cognitive-complexity Sources/Features/Checkout/CheckoutViewModel.swift
 ```
 
 ## Requirements
