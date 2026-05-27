@@ -22,13 +22,31 @@ Clean Code skills for Swift / iOS projects based on Robert Martin's *Clean Code*
 
 ## Installation
 
-Copy `.claude/` into your iOS project root:
+Install the whole bundle with one `npx` command:
 
 ```bash
-cp -r .claude /path/to/your/ios/project/
+npx skills add levabond/iOS-clean-code-skills --all
 ```
 
-Then open Claude Code in that project — skills are available immediately.
+Or install only the skills you want:
+
+```bash
+npx skills add levabond/iOS-clean-code-skills --skill swift-clean-names --skill swift-clean-review
+```
+
+The CLI will ask which agents to register the skill with (Claude Code, Codex, Cursor, Gemini, ...) and whether to install per-project or globally.
+
+If `npx` is missing, install Node (`brew install node`); if `brew` is missing too, [install Homebrew](https://brew.sh) first.
+
+### Alternative install methods
+
+**Claude Code** (installs the whole bundle directly):
+
+```bash
+/plugin install levabond/iOS-clean-code-skills
+```
+
+Or clone this repository and drop the skill folders wherever your agent expects them.
 
 ## Usage
 
@@ -51,5 +69,5 @@ Then open Claude Code in that project — skills are available immediately.
 
 ## Requirements
 
-- Claude Code CLI
+- Claude Code CLI (or another Agent Skills-compatible agent: Codex, Cursor, Gemini, ...)
 - Xcode project (any architecture: MVC, MVVM, TCA, etc.)

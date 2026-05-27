@@ -1,0 +1,7 @@
+{
+  "name": "ios-clean-code-skills",
+  "description": "Clean Code skills for Swift / iOS projects based on Robert Martin's Clean Code and G. Ann Campbell's Cognitive Complexity. Bundles 8 skills: names, functions, types, errors, tests, review, cognitive-complexity, and an automatic advisor.",
+  "version": "1.0.0",
+  "author": "Lev Bondarenko",
+  "repository": "https://github.com/n0an/iOS-clean-code-skills"
+}

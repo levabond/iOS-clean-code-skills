@@ -4,19 +4,17 @@ Claude Code skills for iOS/Swift development based on **Clean Code** by Robert M
 
 ## Installation
 
-Copy the `.claude/` directory into your iOS project root:
+Install the whole bundle with one `npx` command:
 
 ```bash
-cp -r /Users/levbondarenko/mobile/iOS-clean-code-skills/.claude /path/to/your/ios/project/
+npx skills add levabond/iOS-clean-code-skills --all
 ```
 
-Or symlink (skills update automatically):
+Or install only the skills you want (see list below):
 
 ```bash
-ln -s /Users/levbondarenko/mobile/iOS-clean-code-skills/.claude/skills /path/to/your/ios/project/.claude/skills
+npx skills add levabond/iOS-clean-code-skills --skill swift-clean-names
 ```
-
-The skills activate automatically when you open Claude Code in your iOS project directory.
 
 ## Skills Reference
 

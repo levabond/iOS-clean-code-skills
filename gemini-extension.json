@@ -1,0 +1,5 @@
+{
+  "name": "ios-clean-code-skills",
+  "version": "1.0.0",
+  "description": "Clean Code skills for Swift / iOS projects: names, functions, types, errors, tests, review, cognitive complexity, and an automatic advisor."
+}
